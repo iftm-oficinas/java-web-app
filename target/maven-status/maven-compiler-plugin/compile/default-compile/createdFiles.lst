@@ -1,0 +1,5 @@
+domain/entities/User.class
+domain/repositories/UserRepository.class
+domain/Application.class
+domain/services/UserService.class
+domain/controllers/MainController.class
