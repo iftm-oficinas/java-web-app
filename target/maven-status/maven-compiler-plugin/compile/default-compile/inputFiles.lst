@@ -1,5 +1,5 @@
-/home/qat/Documents/Workspace/Java/Web/app/src/main/java/domain/Application.java
-/home/qat/Documents/Workspace/Java/Web/app/src/main/java/domain/controllers/MainController.java
-/home/qat/Documents/Workspace/Java/Web/app/src/main/java/domain/entities/User.java
-/home/qat/Documents/Workspace/Java/Web/app/src/main/java/domain/repositories/UserRepository.java
-/home/qat/Documents/Workspace/Java/Web/app/src/main/java/domain/services/UserService.java
+/home/qat/Documents/Workspace/Projects/java-web-app/src/main/java/domain/Application.java
+/home/qat/Documents/Workspace/Projects/java-web-app/src/main/java/domain/repositories/UserRepository.java
+/home/qat/Documents/Workspace/Projects/java-web-app/src/main/java/domain/controllers/MainController.java
+/home/qat/Documents/Workspace/Projects/java-web-app/src/main/java/domain/services/UserService.java
+/home/qat/Documents/Workspace/Projects/java-web-app/src/main/java/domain/entities/User.java
