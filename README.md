@@ -1,6 +1,6 @@
 #Java Web Application
 
-- Apache Maven 3
+- Apache Maven
 - Spring Boot
 - Angular JS
 - Heroku deployment
