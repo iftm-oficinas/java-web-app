@@ -20,31 +20,31 @@ public class MainController {
 	String index() {
 		return "main/index";
 	}
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	String home() {
+		return "main/index";
+	}
 
 	@RequestMapping(value = "/user", method = RequestMethod.GET)
 	String fetch(Model model) {
-		HashMap<String, Iterable<?>> response = new HashMap<String, Iterable<?>>();
-
+		HashMap<String, Object> response = new HashMap<String, Object>();
 		response.put("users", userService.fetchAll());
 		model.addAttribute("users", response.get("users"));
-
 		return "main/index";
 	}
 
 	@RequestMapping(value = "/user/store", method = RequestMethod.GET)
 	String store(Model model) {
-		HashMap<String, Iterable<?>> response = new HashMap<String, Iterable<?>>();
-
+		HashMap<String, Object> response = new HashMap<String, Object>();
 		try {
 			userService.insert("marlonmacf@gmail.com", "Marlon Andrel", "*****");
 		}
 		catch (Exception e) {
 			System.out.println(e);
 		}
-
 		response.put("users", userService.fetchAll());
 		model.addAttribute("users", response.get("users"));
-
 		return "main/index";
 	}
 }
