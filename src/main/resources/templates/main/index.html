@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
     
     <!-- AngularJS minified version -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script> -->
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -18,20 +18,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!-- Main Application -->
+	<script th:src="@{/js/Core.js}"></script>
+	<script th:src="@{/js/main/ParentClass.js}"></script>
+	<script th:src="@{/js/main/ChildClass.js}"></script>
 	<script th:src="@{/js/main/app.js}"></script>
 	
 </head>
-<body ng-app="myModule">
+<body>
 
     <h3>Web Application</h3>
-    
-    <p>Build a new Web Application from scratch using Spring boot, Thymeleaf, AngularJS.</p>
-    <p th:text="${users}"></p>
-    
-    <div ng-controller="home as home">
-  		<p>The ID is {{home.message.id}}</p>
-  		<p>The content is {{home.message.content}}</p>
-	</div>
 	
 </body>
 </html>

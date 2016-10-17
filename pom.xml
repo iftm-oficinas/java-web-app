@@ -7,6 +7,7 @@
     <groupId>domain</groupId>
     <artifactId>app</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
     
     <!-- Project Settings -->
     <name>Java Maven Spring Boot Web Application</name>
@@ -14,10 +15,10 @@
     <description>
         Java Maven Spring Boot Web Application.
         - Spring Boot.
-        - Angularjs.
-        - Bootstrap.
-        - Data JAP.
+        - Bootstrap Inspinia Tamplate.
+        - Data JAP with Hibernate.
         - H2 as JDBC Driver.
+        - AngularJS.
     </description>
     <inceptionYear>2016</inceptionYear>
 
@@ -33,7 +34,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <start-class>domain.Application</start-class>
-        <!-- <java.version>1.8</java.version> -->
+        <java.version>1.8</java.version>
     </properties>
     <build>
         <plugins>
